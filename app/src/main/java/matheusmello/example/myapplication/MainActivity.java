@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         if (camposValidados){
             this.calcularMelhorPreco (precoAlcool, precoGasolina);
         }else{
-            textResultado.setText("Preencha os preços primeiro")
+            textResultado.setText("Preencha os preços primeiro");
         }
     }
 
